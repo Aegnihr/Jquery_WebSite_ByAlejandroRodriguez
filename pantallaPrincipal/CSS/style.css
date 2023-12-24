@@ -1,0 +1,20 @@
+:root {
+    --rosaOscuro : #A16A83 ;
+    --rosaClaro : #F7BFD8;
+    --rojoOscuro : #834548 ; 
+    --grisOscuro : #404040;
+}
+
+.cabeceraColor {
+    background-color: var(--rosaOscuro);
+}
+
+.nombreMarca{
+    font-family: "Irish Grover";
+}
+
+.Categorias {
+    background-color: var(--rosaClaro);  
+    font-family: "Italiana";  
+    font-size: large;
+}
