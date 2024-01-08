@@ -1,5 +1,5 @@
 
-# Sneaker Shop Online
+# SneakDistrict Shop Online
 Este proyecto es una tienda online de sneakers, diseñada y desarrollada utilizando HTML, CSS, Bootstrap y jQuery. La tienda ofrece una experiencia de compra intuitiva y atractiva para los amantes de los sneakers.
 
 ## Características
