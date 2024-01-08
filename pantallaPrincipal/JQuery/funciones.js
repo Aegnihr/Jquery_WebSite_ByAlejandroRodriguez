@@ -70,13 +70,21 @@ function pintarSneakerRunning(sneakers_json) {
                     <h4 class= "sneaker-price">
                     ${sneaker.precio}€
                     </h4>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 d-flex justify-content-end">
+                    <div class="row">
+                            <div class="col-12 col-xxl-8 d-flex justify-content-end btn-group dropstart">
+                                <button type="button" id="añadir_al_carrito" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Detalles
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" >${sneaker.marca}</a></li>
+                                    <li><a class="dropdown-item" >${sneaker.talla}</a></li>
+                                    <li><a class="dropdown-item" >${sneaker.color}</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-xxl-3 d-flex justify-content-end">
                                 <button id="añadir_al_carrito" onclick = "añadirCarrito(this)">Añadir al carrito</button>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         `);
@@ -102,13 +110,21 @@ function pintarSneakerBasket(sneakers_json) {
                     <h4 class= "sneaker-price">
                     ${sneaker.precio}€
                     </h4>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 d-flex justify-content-end">
+                    <div class="row">
+                            <div class="col-12 col-xxl-8 d-flex justify-content-end btn-group dropstart">
+                                <button type="button" id="añadir_al_carrito" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Detalles
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" >${sneaker.marca}</a></li>
+                                    <li><a class="dropdown-item" >${sneaker.talla}</a></li>
+                                    <li><a class="dropdown-item" >${sneaker.color}</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-xxl-3 d-flex justify-content-end">
                                 <button id="añadir_al_carrito" onclick = "añadirCarrito(this)">Añadir al carrito</button>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         `);
@@ -134,13 +150,21 @@ function pintarSneakerMontaña(sneakers_json) {
                     <h4 class= "sneaker-price">
                     ${sneaker.precio}€
                     </h4>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 d-flex justify-content-end">
+                    <div class="row">
+                            <div class="col-12 col-xxl-8 d-flex justify-content-end btn-group dropstart">
+                                <button type="button" id="añadir_al_carrito" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Detalles
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" >${sneaker.marca}</a></li>
+                                    <li><a class="dropdown-item" >${sneaker.talla}</a></li>
+                                    <li><a class="dropdown-item" >${sneaker.color}</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-xxl-3 d-flex justify-content-end">
                                 <button id="añadir_al_carrito" onclick = "añadirCarrito(this)">Añadir al carrito</button>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         `);
@@ -169,13 +193,21 @@ function buscar() {
                     <h4 class= "sneaker-price">
                     ${sneaker.precio}€
                     </h4>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 d-flex justify-content-end">
+                    <div class="row">
+                            <div class="col-12 col-xxl-8 d-flex justify-content-end btn-group dropstart">
+                                <button type="button" id="añadir_al_carrito" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Detalles
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" >${sneaker.marca}</a></li>
+                                    <li><a class="dropdown-item" >${sneaker.talla}</a></li>
+                                    <li><a class="dropdown-item" >${sneaker.color}</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-xxl-3 d-flex justify-content-end">
                                 <button id="añadir_al_carrito" onclick = "añadirCarrito(this)">Añadir al carrito</button>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         `);
@@ -219,13 +251,21 @@ function ordenMayor_a_Menor(sneakers_json) {
             <h4 class= "sneaker-price">
             ${sneaker.precio}€
             </h4>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 d-flex justify-content-end">
-                        <button id="añadir_al_carrito" onclick = "añadirCarrito(this)">Añadir al carrito</button>
-                    </div>
-                </div>
-            </div>
+            <div class="row">
+                            <div class="col-12 col-xxl-8 d-flex justify-content-end btn-group dropstart">
+                                <button type="button" id="añadir_al_carrito" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Detalles
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" >${sneaker.marca}</a></li>
+                                    <li><a class="dropdown-item" >${sneaker.talla}</a></li>
+                                    <li><a class="dropdown-item" >${sneaker.color}</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-xxl-3 d-flex justify-content-end">
+                                <button id="añadir_al_carrito" onclick = "añadirCarrito(this)">Añadir al carrito</button>
+                            </div>
+                        </div>
         </div>
     </div>
         `);
@@ -252,16 +292,21 @@ function ordenMenor_a_Mayor(sneakers_json) {
                     <h4 class= "sneaker-price">
                     ${sneaker.precio}€
                     </h4>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-9 d-flex justify-content-end">
-                                <button id="añadir_al_carrito">Detalles</button>
+                    <div class="row">
+                            <div class="col-12 col-xxl-8 d-flex justify-content-end btn-group dropstart">
+                                <button type="button" id="añadir_al_carrito" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Detalles
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" >${sneaker.marca}</a></li>
+                                    <li><a class="dropdown-item" >${sneaker.talla}</a></li>
+                                    <li><a class="dropdown-item" >${sneaker.color}</a></li>
+                                </ul>
                             </div>
-                            <div class="col-3 d-flex justify-content-end">
+                            <div class="col-12 col-xxl-3 d-flex justify-content-end">
                                 <button id="añadir_al_carrito" onclick = "añadirCarrito(this)">Añadir al carrito</button>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         `);
